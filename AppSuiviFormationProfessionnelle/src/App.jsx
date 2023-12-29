@@ -1,9 +1,16 @@
 import "./App.css";
+import { Container } from "./index"
+import {Header,Contenu} from "./sectionAccueil/index"
 
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <>
+      <Header />
+      <Container>
+        <Contenu />
+      </Container>
+    </>
   )
 }
 
